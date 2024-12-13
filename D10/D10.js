@@ -372,13 +372,13 @@ return film
 console.log (newestMovie (movies))*/
 
 
-/*function newestMovie (movies) {
+ /function newestMovie (movies) {
  return movies.reduce ((newest,current) => {
   return (current.year > newest.year) ? current : newest;
  })
 }
 
-console.log (newestMovie(movies))*/
+console.log (newestMovie(movies))
 
 function newestMovie (movies){
  // if (movies.lenght === 0){
@@ -466,6 +466,7 @@ console.log (sumAllTheYears())
   "match" deve includere tutti i film dell'array "movies" 
   fornito che contengono la stringa fornita all'interno del proprio titolo, mentre "unmatch" deve includere tutti i rimanenti.
 */
+//function 
 
 /* ESERCIZIO 19
   Scrivi una funzione chiamata "removeIndex" che riceve un numero come parametro e ritorna 
@@ -478,11 +479,11 @@ console.log (sumAllTheYears())
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
 */
 
-function selection ( ) {
+//function selection ( ) {
   let div = document.querySelector ('#div')
   console.log ( div)
-}
-selection ()
+//}
+//selection ()
 
 /* ESERCIZIO 21
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
